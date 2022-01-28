@@ -5,7 +5,7 @@ import os, json
 # print out all environment variables as plain text
 print("Content-Type: text/plain")
 print()
-print("os.environ")
+print(os.environ)
 
 # print out all environment variables as json
 #print("Content-Type: application/json")
